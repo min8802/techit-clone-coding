@@ -6,7 +6,6 @@ const ClassButton = ({ classData, classCardComps, setClassCardComps }) => {
   const onClickClass = () => {
     setIsClicked(!isClicked);
   };
-
   useEffect(() => {
     if (isClicked) {
       setClassCardComps([...classCardComps, classData]);
