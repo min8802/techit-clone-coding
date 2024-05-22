@@ -8,7 +8,7 @@ const EducationCard = ({ title, description, image }) => {
         />
         <div className="absolute top-0 left-0 p-8">
           <h3 className="text-2xl font-bold">{title}</h3>
-          <h5 className="mt-2">{description}</h5>
+          <h5 className="mt-2 max-w-96">{description}</h5>
           <button className="flex mt-4 items-center text-sm text-techit-gray-200">더 알아보기
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" 
           width="16" className="ml-1 text-gray-500 md:ml-2"><path strokeLinecap="round" 
